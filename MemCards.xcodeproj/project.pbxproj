@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5A18D99B2301C76A005CE5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D99A2301C76A005CE5B5 /* AppDelegate.swift */; };
-		5A18D99D2301C76A005CE5B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D99C2301C76A005CE5B5 /* ViewController.swift */; };
-		5A18D9A02301C76A005CE5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A18D99E2301C76A005CE5B5 /* Main.storyboard */; };
+		5A18D99D2301C76A005CE5B5 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D99C2301C76A005CE5B5 /* CardViewController.swift */; };
 		5A18D9A32301C76A005CE5B5 /* MemCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9A12301C76A005CE5B5 /* MemCards.xcdatamodeld */; };
 		5A18D9A52301C76C005CE5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A18D9A42301C76C005CE5B5 /* Assets.xcassets */; };
 		5A18D9A82301C76C005CE5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A18D9A62301C76C005CE5B5 /* LaunchScreen.storyboard */; };
 		5A18D9B32301C76C005CE5B5 /* MemCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9B22301C76C005CE5B5 /* MemCardsTests.swift */; };
 		5A18D9BE2301C76C005CE5B5 /* MemCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9BD2301C76C005CE5B5 /* MemCardsUITests.swift */; };
+		5A18D9CD2301C994005CE5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A18D9CB2301C994005CE5B5 /* Main.storyboard */; };
+		5A18D9D22301DE5E005CE5B5 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9D12301DE5E005CE5B5 /* ScrollView.swift */; };
+		5A18D9D42301DE72005CE5B5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9D32301DE72005CE5B5 /* CustomButton.swift */; };
+		5A18D9D62301DEC0005CE5B5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9D52301DEC0005CE5B5 /* TableViewController.swift */; };
+		5A18D9D82301DED2005CE5B5 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9D72301DED2005CE5B5 /* AddListViewController.swift */; };
+		5A18D9DA2301EB48005CE5B5 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A18D9D92301EB48005CE5B5 /* AddCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,7 @@
 /* Begin PBXFileReference section */
 		5A18D9972301C76A005CE5B5 /* MemCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A18D99A2301C76A005CE5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A18D99C2301C76A005CE5B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A18D99F2301C76A005CE5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A18D99C2301C76A005CE5B5 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		5A18D9A22301C76A005CE5B5 /* MemCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemCards.xcdatamodel; sourceTree = "<group>"; };
 		5A18D9A42301C76C005CE5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A18D9A72301C76C005CE5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		5A18D9B92301C76C005CE5B5 /* MemCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A18D9BD2301C76C005CE5B5 /* MemCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemCardsUITests.swift; sourceTree = "<group>"; };
 		5A18D9BF2301C76C005CE5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A18D9CC2301C994005CE5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A18D9D12301DE5E005CE5B5 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		5A18D9D32301DE72005CE5B5 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5A18D9D52301DEC0005CE5B5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5A18D9D72301DED2005CE5B5 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
+		5A18D9D92301EB48005CE5B5 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				5A18D99A2301C76A005CE5B5 /* AppDelegate.swift */,
-				5A18D99C2301C76A005CE5B5 /* ViewController.swift */,
-				5A18D99E2301C76A005CE5B5 /* Main.storyboard */,
+				5A18D9D02301DE33005CE5B5 /* Model */,
+				5A18D9CF2301DE30005CE5B5 /* View */,
+				5A18D9CE2301DE2C005CE5B5 /* Controller */,
 				5A18D9A42301C76C005CE5B5 /* Assets.xcassets */,
 				5A18D9A62301C76C005CE5B5 /* LaunchScreen.storyboard */,
+				5A18D9CB2301C994005CE5B5 /* Main.storyboard */,
 				5A18D9A92301C76C005CE5B5 /* Info.plist */,
 				5A18D9A12301C76A005CE5B5 /* MemCards.xcdatamodeld */,
 			);
@@ -126,6 +138,33 @@
 				5A18D9BF2301C76C005CE5B5 /* Info.plist */,
 			);
 			path = MemCardsUITests;
+			sourceTree = "<group>";
+		};
+		5A18D9CE2301DE2C005CE5B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A18D99C2301C76A005CE5B5 /* CardViewController.swift */,
+				5A18D9D52301DEC0005CE5B5 /* TableViewController.swift */,
+				5A18D9D72301DED2005CE5B5 /* AddListViewController.swift */,
+				5A18D9D92301EB48005CE5B5 /* AddCardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A18D9CF2301DE30005CE5B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A18D9D12301DE5E005CE5B5 /* ScrollView.swift */,
+				5A18D9D32301DE72005CE5B5 /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A18D9D02301DE33005CE5B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A18D9CD2301C994005CE5B5 /* Main.storyboard in Resources */,
 				5A18D9A82301C76C005CE5B5 /* LaunchScreen.storyboard in Resources */,
 				5A18D9A52301C76C005CE5B5 /* Assets.xcassets in Resources */,
-				5A18D9A02301C76A005CE5B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A18D99D2301C76A005CE5B5 /* ViewController.swift in Sources */,
+				5A18D9DA2301EB48005CE5B5 /* AddCardViewController.swift in Sources */,
+				5A18D99D2301C76A005CE5B5 /* CardViewController.swift in Sources */,
+				5A18D9D62301DEC0005CE5B5 /* TableViewController.swift in Sources */,
+				5A18D9D82301DED2005CE5B5 /* AddListViewController.swift in Sources */,
+				5A18D9D22301DE5E005CE5B5 /* ScrollView.swift in Sources */,
 				5A18D9A32301C76A005CE5B5 /* MemCards.xcdatamodeld in Sources */,
 				5A18D99B2301C76A005CE5B5 /* AppDelegate.swift in Sources */,
+				5A18D9D42301DE72005CE5B5 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +341,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A18D99E2301C76A005CE5B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A18D99F2301C76A005CE5B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A18D9A62301C76C005CE5B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5A18D9A72301C76C005CE5B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5A18D9CB2301C994005CE5B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A18D9CC2301C994005CE5B5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
